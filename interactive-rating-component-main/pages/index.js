@@ -26,17 +26,17 @@ const HomePage = () => {
       <div className={styles.container}>
         <div className={styles.card}>
           <div className={styles.card__content}>
-            <div className={styles.container__svg}>
-              <Image
-                src="/icon-star.svg"
-                alt="SVG of star"
-                width={30}
-                height={30}
-              />
-            </div>
-
             {/* <!-- Rating state  --> */}
             <div className={styles.card__rating}>
+              <div className={styles.container__svg}>
+                <Image
+                  src="/icon-star.svg"
+                  alt="SVG of star"
+                  width={30}
+                  height={30}
+                />
+              </div>
+
               <h1>How did we do?</h1>
               <p>
                 Please let us know how we did with your support request. All
